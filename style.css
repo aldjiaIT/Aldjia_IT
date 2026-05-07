@@ -1,77 +1,105 @@
-/* ================= GENERAL ================= */
-
-body{
+body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0f172a;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #00ffcc;
+}
+
+.profile img {
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #00ffcc;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav button {
+  background: transparent;
+  border: 1px solid #00ffcc;
   color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
 }
 
-/* ================= CONTACT ================= */
-
-.contact-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  padding: 60px;
+nav button:hover {
+  background: #00ffcc;
+  color: black;
 }
 
-.card{
-  background: #1e293b;
+/* SECTIONS */
+.tab {
+  display: none;
   padding: 30px;
-  border-radius: 12px;
 }
 
-/* FORMULAIRE */
+.tab.active {
+  display: block;
+}
 
-form{
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  border: 1px solid #00ffcc;
+  flex: 1;
+  min-width: 200px;
+}
+
+/* TIMELINE */
+.timeline .item {
+  border-left: 2px solid #00ffcc;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.box {
+  background: #1a1a1a;
+  padding: 15px;
+  border: 1px solid #00ffcc;
+}
+
+/* FORM */
+form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  width: 300px;
 }
 
-input,
-textarea{
-  background: #0f172a;
-  border: none;
-  padding: 15px;
-  border-radius: 10px;
+input, textarea {
+  margin: 5px 0;
+  padding: 10px;
+  background: #111;
+  border: 1px solid #00ffcc;
   color: white;
 }
 
-textarea{
-  height: 150px;
-}
-
-button{
-  background: #38bdf8;
+button {
+  background: #00ffcc;
   border: none;
-  padding: 15px;
-  color: white;
-  border-radius: 10px;
+  padding: 10px;
   cursor: pointer;
-  transition: 0.3s;
-}
-
-button:hover{
-  background: #0ea5e9;
-}
-
-/* ================= FOOTER ================= */
-
-footer{
-  text-align: center;
-  padding: 30px;
-  color: #94a3b8;
-}
-
-/* ================= RESPONSIVE ================= */
-
-@media(max-width:900px){
-
-  .contact-container{
-    grid-template-columns: 1fr;
-    padding: 20px;
-  }
-
 }
