@@ -2,153 +2,117 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio BTS SIO SLAM</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <div class="profile">
-    <img src="photo.jpg" alt="Photo profil">
+<!-- HOME MENU -->
+<div id="home" class="page active">
+
+  <header>
+    <img src="photo.jpg" class="avatar">
     <h1>PRÉNOM NOM</h1>
-    <p>Étudiant en informatique — Développement d'applications (SLAM)</p>
+    <p>Étudiant BTS SIO SLAM</p>
+  </header>
+
+  <div class="menu">
+    <button onclick="openPage('profil')">Profil</button>
+    <button onclick="openPage('parcours')">Parcours</button>
+    <button onclick="openPage('formation')">Formation</button>
+    <button onclick="openPage('competences')">Compétences</button>
+    <button onclick="openPage('projets')">Projets</button>
+    <button onclick="openPage('contact')">Contact</button>
   </div>
 
-  <nav>
-    <button onclick="showTab('accueil')">Accueil</button>
-    <button onclick="showTab('profil')">Profil</button>
-    <button onclick="showTab('parcours')">Parcours</button>
-    <button onclick="showTab('formation')">Formation</button>
-    <button onclick="showTab('competences')">Compétences</button>
-    <button onclick="showTab('projets')">Projets</button>
-    <button onclick="showTab('contact')">Contact</button>
-  </nav>
-</header>
-
-<main>
-
-<!-- ACCUEIL -->
-<section id="accueil" class="tab active">
-  <h2>Bienvenue</h2>
-  <p>Portfolio BTS SIO SLAM — Développeur en formation</p>
-
-  <div class="cards">
-    <div class="card">💻 Développement Web</div>
-    <div class="card">📱 Applications</div>
-    <div class="card">🗄️ Bases de données</div>
-  </div>
-
-  <div class="links">
-    <a href="#">📄 Télécharger CV</a>
-    <a href="#">💼 LinkedIn</a>
-    <a href="#">🐙 GitHub</a>
-  </div>
-</section>
+</div>
 
 <!-- PROFIL -->
-<section id="profil" class="tab">
+<div id="profil" class="page">
+  <button class="back" onclick="goHome()">⬅ Retour</button>
   <h2>Profil</h2>
   <p>
-    Je suis étudiant en BTS SIO option SLAM. Passionné par le développement,
-    j’aime concevoir des applications web et comprendre le fonctionnement des systèmes informatiques.
+    Je suis étudiant en BTS SIO option SLAM, passionné par le développement
+    et la création d’applications web et logicielles.
   </p>
-</section>
+</div>
 
 <!-- PARCOURS -->
-<section id="parcours" class="tab">
+<div id="parcours" class="page">
+  <button class="back" onclick="goHome()">⬅ Retour</button>
   <h2>Parcours</h2>
 
   <div class="timeline">
-    <div class="item">
-      <span>2025 - Aujourd'hui</span>
-      <p>BTS SIO SLAM — Développement logiciel</p>
-    </div>
-
-    <div class="item">
-      <span>2024</span>
-      <p>Baccalauréat (Nom complet de la filière)</p>
-    </div>
+    <div>2025 — BTS SIO SLAM</div>
+    <div>2024 — Baccalauréat</div>
   </div>
-</section>
+</div>
 
 <!-- FORMATION -->
-<section id="formation" class="tab">
+<div id="formation" class="page">
+  <button class="back" onclick="goHome()">⬅ Retour</button>
+
   <h2>Formation BTS SIO SLAM</h2>
 
   <p>
-    Le BTS SIO (Services Informatiques aux Organisations) forme des développeurs capables
-    de créer des applications et gérer des systèmes informatiques.
+    Le BTS SIO forme des développeurs capables de créer des solutions informatiques.
   </p>
 
   <p>
-    L’option SLAM (Solutions Logicielles et Applications Métiers) est centrée sur le développement
-    d’applications web, mobiles et logicielles.
+    L’option SLAM est centrée sur le développement d’applications web et logicielles.
   </p>
-</section>
+</div>
 
 <!-- COMPETENCES -->
-<section id="competences" class="tab">
+<div id="competences" class="page">
+  <button class="back" onclick="goHome()">⬅ Retour</button>
+
   <h2>Compétences</h2>
 
-  <div class="grid">
-    <div class="box">
-      <h3>Langages</h3>
-      <p>HTML, CSS, JS, PHP, Python, Java</p>
-    </div>
-
-    <div class="box">
-      <h3>Bases de données</h3>
-      <p>MySQL, PostgreSQL, MongoDB</p>
-    </div>
-
-    <div class="box">
-      <h3>Outils</h3>
-      <p>GitHub, VS Code, Eclipse</p>
-    </div>
-
-    <div class="box">
-      <h3>Méthodes</h3>
-      <p>UML, Merise, SOLID, DRY</p>
-    </div>
-  </div>
-</section>
+  <ul>
+    <li>HTML / CSS / JavaScript</li>
+    <li>PHP / Python / Java</li>
+    <li>MySQL / MongoDB</li>
+    <li>Git / GitHub</li>
+  </ul>
+</div>
 
 <!-- PROJETS -->
-<section id="projets" class="tab">
+<div id="projets" class="page">
+  <button class="back" onclick="goHome()">⬅ Retour</button>
+
   <h2>Projets</h2>
 
-  <div class="cards">
-    <div class="card">Site Web HTML/CSS</div>
-    <div class="card">Application PHP/MySQL</div>
-    <div class="card">Mini API Python</div>
-  </div>
-</section>
+  <div class="card">Site web HTML/CSS</div>
+  <div class="card">Application PHP/MySQL</div>
+</div>
 
 <!-- CONTACT -->
-<section id="contact" class="tab">
+<div id="contact" class="page">
+  <button class="back" onclick="goHome()">⬅ Retour</button>
+
   <h2>Contact</h2>
 
   <form>
-    <input type="text" placeholder="Nom">
-    <input type="email" placeholder="Email">
+    <input placeholder="Nom">
+    <input placeholder="Email">
     <textarea placeholder="Message"></textarea>
-    <button type="submit">Envoyer</button>
+    <button>Envoyer</button>
   </form>
-
-  <p>Email : exemple@mail.com</p>
-</section>
-
-</main>
+</div>
 
 <script>
-function showTab(id) {
-  document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+function openPage(id){
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
   document.getElementById(id).classList.add('active');
+}
+
+function goHome(){
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('home').classList.add('active');
 }
 </script>
 
 </body>
 </html>
-
