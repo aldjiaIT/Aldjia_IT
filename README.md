@@ -22,16 +22,16 @@
 
 <section class="hero">
   <div class="hero-box">
-    <h1>PRÉNOM NOM</h1>
-    <h3>Étudiant BTS SIO SLAM</h3>
+    <h1>Aldjia Amarni</h1>
+    <h3>Étudiant Informatique , a l'université de Bordeaux </h3>
 
     <p>
       Développeur passionné par la création d’applications web et logicielles.
     </p>
 
     <div class="mini-contact">
-      <p>📧 monmail@mail.com</p>
-      <p>📱 06 12 34 56 78</p>
+      <p>📧 aldjia.info@gmail.com</p>
+      <p>📱 06 34 15 41 29</p>
     </div>
 
     <div class="socials">
