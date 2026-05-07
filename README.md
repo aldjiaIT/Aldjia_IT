@@ -1,31 +1,25 @@
-# Portfolio BTS SIO SLAM
+# Portfolio BTS SIO SLAM (version navigation)
 
-## Présentation
-Ce portfolio a été réalisé dans le cadre du BTS SIO option SLAM.  
-Il présente mon parcours, mes compétences, mes projets et ma formation.
+## Fonctionnement
+Ce portfolio fonctionne comme une mini application :
 
-## Structure
-- Accueil
-- Profil
-- Parcours
-- Formation BTS SIO SLAM
-- Compétences
-- Projets
-- Contact
+- Une page d’accueil avec menu
+- Chaque bouton ouvre une section
+- Une seule page est visible à la fois
+- Un bouton "Retour" ramène au menu
 
-## Technologies utilisées
-- HTML5
-- CSS3
-- JavaScript
+## Objectif pédagogique
+- Comprendre la navigation dynamique
+- Simuler une application web professionnelle
+- Préparer l’épreuve BTS SIO E4
 
-## Objectif
-Créer un site professionnel permettant de :
-- Présenter mon profil étudiant
-- Montrer mes compétences techniques
-- Valoriser mes projets
-- Préparer l’épreuve E4 du BTS SIO
+## Technologies
+- HTML
+- CSS
+- JavaScript (DOM manipulation)
 
-## Améliorations futures
-- Ajout d’un backend (PHP ou Node.js)
-- Base de données pour les projets
-- Animation avancée (GSAP / Three.js)
+## Améliorations possibles
+- Animations entre pages
+- Version React
+- Backend PHP / Node.js
+- Base de données projets
