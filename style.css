@@ -1,82 +1,115 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: #0b0b0b;
+  background: #070b14;
   color: white;
+  scroll-behavior: smooth;
 }
 
-/* PAGE SYSTEM */
-.page {
-  display: none;
-  padding: 30px;
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(10,10,20,0.9);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  backdrop-filter: blur(10px);
 }
 
-.page.active {
-  display: block;
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
-/* HOME */
-header {
-  text-align: center;
-  padding: 40px;
+.navbar a:hover {
+  color: #00bfff;
 }
 
-.avatar {
-  width: 120px;
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 80px;
+}
+
+.hero h1 span {
+  color: #00bfff;
+}
+
+.hero-img img {
+  width: 250px;
   border-radius: 50%;
-  border: 2px solid #00ffcc;
+  border: 3px solid #00bfff;
 }
 
-/* MENU */
-.menu {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-  max-width: 400px;
-  margin: auto;
-}
-
-.menu button {
-  padding: 15px;
-  background: transparent;
-  border: 1px solid #00ffcc;
+.buttons a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: 1px solid #00bfff;
   color: white;
-  cursor: pointer;
+  text-decoration: none;
 }
 
-.menu button:hover {
-  background: #00ffcc;
-  color: black;
+/* SECTIONS */
+.section {
+  padding: 80px;
 }
 
-/* BACK BUTTON */
-.back {
-  background: #00ffcc;
-  border: none;
-  padding: 10px;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-/* CONTENT */
 h2 {
-  color: #00ffcc;
+  color: #00bfff;
 }
 
-/* CARD */
+/* CARDS */
 .card {
-  background: #1a1a1a;
-  padding: 10px;
+  background: #111a2b;
+  padding: 15px;
   margin: 10px 0;
-  border-left: 3px solid #00ffcc;
+  border-left: 3px solid #00bfff;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.box {
+  background: #111a2b;
+  padding: 20px;
+  text-align: center;
 }
 
 /* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 input, textarea {
-  width: 100%;
   margin: 5px 0;
   padding: 10px;
   background: #111;
-  border: 1px solid #00ffcc;
+  border: 1px solid #00bfff;
   color: white;
+}
+
+button {
+  padding: 10px;
+  background: #00bfff;
+  border: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b0f1a;
 }
