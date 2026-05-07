@@ -1,25 +1,22 @@
-# Portfolio BTS SIO SLAM (version navigation)
+# Portfolio BTS SIO SLAM
 
-## Fonctionnement
-Ce portfolio fonctionne comme une mini application :
+## Objectif
+Créer un portfolio professionnel identique à un site moderne de développeur.
 
-- Une page d’accueil avec menu
-- Chaque bouton ouvre une section
-- Une seule page est visible à la fois
-- Un bouton "Retour" ramène au menu
-
-## Objectif pédagogique
-- Comprendre la navigation dynamique
-- Simuler une application web professionnelle
-- Préparer l’épreuve BTS SIO E4
+## Fonctionnalités
+- Navbar fixe
+- Navigation par sections (scroll fluide)
+- Design sombre moderne
+- Présentation BTS SIO SLAM
+- Compétences, projets, parcours
 
 ## Technologies
 - HTML
 - CSS
-- JavaScript (DOM manipulation)
+- (JavaScript non obligatoire ici)
 
 ## Améliorations possibles
-- Animations entre pages
+- Animation GSAP
+- Mode dark/light
+- Backend contact form
 - Version React
-- Backend PHP / Node.js
-- Base de données projets
