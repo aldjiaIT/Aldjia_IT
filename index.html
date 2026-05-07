@@ -2,18 +2,17 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Mon Portfolio BTS SIO SLAM</title>
+  <title>Portfolio BTS SIO SLAM</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+<!-- NAV -->
 <header class="navbar">
-  <div class="logo">💻 MON PORTFOLIO</div>
+  <div class="logo">💻 Portfolio</div>
 
   <nav>
-    <a href="#accueil">Accueil</a>
     <a href="#profil">Profil</a>
     <a href="#parcours">Parcours</a>
     <a href="#formation">Formation</a>
@@ -23,34 +22,36 @@
   </nav>
 </header>
 
-<!-- HERO -->
-<section id="accueil" class="hero">
+<!-- PROFIL (PAGE D'ACCUEIL) -->
+<section id="profil" class="hero">
+
   <div class="hero-text">
     <h2>Bonjour, je suis</h2>
     <h1>PRÉNOM <span>NOM</span></h1>
 
-    <h3>Étudiant en informatique</h3>
-    <p>BTS SIO - Option SLAM</p>
-    <p>Développement d’applications & solutions logicielles</p>
+    <h3>Étudiant en BTS SIO SLAM</h3>
+
+    <p>
+      Passionné par le développement web et logiciel, je suis actuellement en BTS SIO option SLAM.
+      Ce portfolio présente mon parcours, mes compétences et mes projets.
+    </p>
+
+    <div class="contact-mini">
+      <p>📧 mail@mail.com</p>
+      <p>📞 06 12 34 56 78</p>
+      <p>🔗 linkedin.com/in/tonprofil</p>
+    </div>
 
     <div class="buttons">
-      <a href="#">Télécharger CV</a>
       <a href="#contact">Me contacter</a>
+      <a href="#">Télécharger CV</a>
     </div>
   </div>
 
   <div class="hero-img">
-    <img src="photo.jpg" alt="profil">
+    <img src="photo.jpg" alt="photo">
   </div>
-</section>
 
-<!-- PROFIL -->
-<section id="profil" class="section">
-  <h2>À propos de moi</h2>
-  <p>
-    Étudiant en BTS SIO SLAM, passionné par le développement web et logiciel.
-    J’aime créer des applications modernes et comprendre les systèmes informatiques.
-  </p>
 </section>
 
 <!-- PARCOURS -->
@@ -59,17 +60,12 @@
 
   <div class="card">
     <h3>2024 - 2026</h3>
-    <p>BTS SIO SLAM - Développement logiciel</p>
+    <p>BTS SIO SLAM - Développement d’applications</p>
   </div>
 
   <div class="card">
     <h3>2021 - 2024</h3>
     <p>Baccalauréat général</p>
-  </div>
-
-  <div class="card">
-    <h3>Stage</h3>
-    <p>Développeur Web - Application de gestion</p>
   </div>
 </section>
 
@@ -79,8 +75,8 @@
 
   <div class="card">
     <p>
-      Le BTS SIO forme des développeurs capables de créer des solutions informatiques.
-      L’option SLAM est orientée développement d’applications web et logicielles.
+      Le BTS SIO forme des développeurs capables de créer des applications et gérer des systèmes informatiques.
+      L’option SLAM est spécialisée dans le développement logiciel et web.
     </p>
   </div>
 </section>
@@ -103,24 +99,33 @@
 <section id="projets" class="section">
   <h2>Projets</h2>
 
-  <div class="card">Site vitrine HTML/CSS</div>
+  <div class="card">Site web HTML/CSS</div>
   <div class="card">Application PHP/MySQL</div>
-  <div class="card">API Python</div>
+  <div class="card">Projet Python</div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact" class="section">
   <h2>Contact</h2>
 
-  <form>
-    <input type="text" placeholder="Nom">
-    <input type="email" placeholder="Email">
-    <textarea placeholder="Message"></textarea>
-    <button>Envoyer</button>
-  </form>
+  <div class="contact-box">
+
+    <div>
+      <p>📧 mail@mail.com</p>
+      <p>📞 06 12 34 56 78</p>
+      <p>📍 France</p>
+    </div>
+
+    <form>
+      <input type="text" placeholder="Nom">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button>Envoyer</button>
+    </form>
+
+  </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <p>© 2025 Portfolio BTS SIO SLAM</p>
 </footer>
