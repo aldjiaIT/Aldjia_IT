@@ -1,118 +1,81 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: #070b14;
   color: white;
-  scroll-behavior: smooth;
+  background: #050814;
+  overflow-x: hidden;
+}
+
+/* BACKGROUND IMAGE CODE */
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("bg-code.jpg") center/cover no-repeat;
+  opacity: 0.15;
+  z-index: -1;
 }
 
 /* NAV */
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: rgba(10,10,20,0.95);
+nav {
   display: flex;
-  justify-content: space-between;
-  padding: 15px 40px;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  backdrop-filter: blur(10px);
 }
 
-.navbar a {
+nav a {
   color: white;
-  margin: 0 10px;
   text-decoration: none;
 }
 
-.navbar a:hover {
+nav a:hover {
   color: #00bfff;
 }
 
-/* HERO (profil direct) */
+/* HOME HERO */
 .hero {
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
-  padding: 120px 80px;
+  justify-content: center;
   align-items: center;
 }
 
-.hero h1 span {
+.hero-box {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 15px;
+}
+
+/* CONTACT MINI */
+.mini-contact {
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* SOCIALS */
+.socials a {
+  margin: 5px;
   color: #00bfff;
 }
 
-.hero-img img {
-  width: 250px;
-  border-radius: 50%;
-  border: 3px solid #00bfff;
+/* PAGES */
+.page {
+  padding: 120px 40px;
 }
 
-.contact-mini {
-  margin: 15px 0;
-  color: #aaa;
-}
-
-/* BUTTONS */
-.buttons a {
-  padding: 10px 15px;
-  border: 1px solid #00bfff;
-  margin-right: 10px;
-  color: white;
-  text-decoration: none;
-}
-
-/* SECTIONS */
-.section {
-  padding: 80px;
-}
-
-h2 {
-  color: #00bfff;
-}
-
-/* CARDS */
 .card {
-  background: #111a2b;
-  padding: 15px;
-  margin: 10px 0;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  margin: 20px 0;
   border-left: 3px solid #00bfff;
-}
-
-/* GRID */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.box {
-  background: #111a2b;
-  padding: 20px;
-  text-align: center;
-}
-
-/* CONTACT */
-.contact-box {
-  display: flex;
-  gap: 50px;
-}
-
-input, textarea {
-  width: 300px;
-  margin: 5px 0;
-  padding: 10px;
-  background: #111;
-  border: 1px solid #00bfff;
-  color: white;
-}
-
-button {
-  padding: 10px;
-  background: #00bfff;
-  border: none;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #0b0f1a;
 }
