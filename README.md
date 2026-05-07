@@ -1,18 +1,31 @@
-# Aldjia_IT
 # Portfolio BTS SIO SLAM
 
-Ce projet est un site web personnel réalisé en HTML et CSS.
+## Présentation
+Ce portfolio a été réalisé dans le cadre du BTS SIO option SLAM.  
+Il présente mon parcours, mes compétences, mes projets et ma formation.
 
-## Contenu
-- Page de contact
-- Formulaire d’envoi de message
-- Informations personnelles
-- Design responsive
+## Structure
+- Accueil
+- Profil
+- Parcours
+- Formation BTS SIO SLAM
+- Compétences
+- Projets
+- Contact
 
-## Technologies
+## Technologies utilisées
 - HTML5
 - CSS3
-- Font Awesome
+- JavaScript
 
-## Auteur
-Étudiant BTS SIO SLAM
+## Objectif
+Créer un site professionnel permettant de :
+- Présenter mon profil étudiant
+- Montrer mes compétences techniques
+- Valoriser mes projets
+- Préparer l’épreuve E4 du BTS SIO
+
+## Améliorations futures
+- Ajout d’un backend (PHP ou Node.js)
+- Base de données pour les projets
+- Animation avancée (GSAP / Three.js)
