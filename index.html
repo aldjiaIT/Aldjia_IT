@@ -1,47 +1,307 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Formation</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aldjia Amarni</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7a4d0c5f1e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<div class="bg"></div>
+<header class="hero">
 
-<header>
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="formation.html">Formation</a>
-    <a href="parcours.html">Parcours</a>
-    <a href="competences.html">Compétences</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+    <nav>
+        <h2 class="logo">Aldjia<span>.</span></h2>
+
+        <ul>
+            <li><a href="#about">Présentation</a></li>
+            <li><a href="#timeline">Parcours</a></li>
+            <li><a href="#formation">BTS SIO</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Réalisations</a></li>
+            <li><a href="#veille">Veille</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-content">
+
+        <img src="photo.jpg" alt="Photo Profil" class="profile">
+
+        <h1>Aldjia Amarni</h1>
+
+        <h3>Étudiante en Informatique</h3>
+
+        <p>Développement d'applications - BTS SIO Option SLAM</p>
+
+        <div class="hero-buttons">
+            <a href="#" class="btn">Télécharger CV</a>
+            <a href="#" class="btn btn-outline">LinkedIn</a>
+        </div>
+
+    </div>
+
 </header>
 
-<section class="page">
+<section id="about">
 
-  <h1>FORMATION</h1>
+    <h2>Présentation Personnelle</h2>
 
-  <div class="card">
-    <h2>BTS SIO SLAM (2024 - 2026)</h2>
     <p>
-      Formation orientée développement web et logiciel :
-      applications, bases de données, projets clients.
-    </p>
-  </div>
+        Originaire de Bordeaux, j'ai obtenu un baccalauréat général avec des
+        spécialités orientées sciences économiques et sociales. N'étant pas
+        encore certaine de mon projet professionnel à cette époque, j'ai choisi
+        d'explorer plusieurs domaines avant de découvrir ma passion pour le
+        développement informatique.
 
-  <div class="card">
-    <h2>Objectifs</h2>
-    <ul>
-      <li>Développement web & applications</li>
-      <li>Gestion de bases de données</li>
-      <li>Travail en équipe projet</li>
-    </ul>
-  </div>
+        Aujourd'hui, je suis étudiante en BTS SIO option SLAM, une formation
+        qui me permet d'acquérir des compétences solides en conception,
+        développement et maintenance d'applications.
+
+        Mon objectif est de devenir développeuse full stack puis, à long terme,
+        cheffe de projet dans le domaine du développement logiciel.
+    </p>
 
 </section>
+
+<section id="timeline">
+
+    <h2>Mon Parcours</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>2025 - Aujourd'hui</h3>
+            <p>BTS SIO Option SLAM</p>
+            <span>CNED - Bordeaux</span>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2024 - 2025</h3>
+            <p>Stage Développeuse Web</p>
+            <span>TechNova Solutions - Bordeaux</span>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2021 - 2024</h3>
+            <p>Baccalauréat Général</p>
+            <span>Lycée Montesquieu - Bordeaux</span>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="formation">
+
+    <h2>BTS SIO Option SLAM</h2>
+
+    <p>
+        Le BTS Services Informatiques aux Organisations forme des techniciens
+        capables de répondre aux besoins informatiques des entreprises.
+        L'option SLAM est spécialisée dans la conception, le développement
+        et la maintenance d'applications métiers.
+
+        Cette année, j'apprends à développer des applications web et
+        desktop, concevoir des bases de données relationnelles,
+        utiliser GitHub, appliquer les bonnes pratiques de développement
+        et mettre en œuvre des méthodes de conception professionnelles.
+    </p>
+
+</section>
+
+<section id="metiers">
+
+    <h2>Métiers Visés</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <i class="fas fa-code"></i>
+            <h3>Développeuse Web</h3>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Développeuse Full Stack</h3>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-server"></i>
+            <h3>Ingénieure Logicielle</h3>
+        </div>
+
+    </div>
+
+    <a href="#" class="mindmap">
+        Voir ma carte heuristique
+    </a>
+
+</section>
+
+<section id="skills">
+
+    <h2>Compétences Techniques</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-box">
+            <h3>Langages</h3>
+            <p>HTML, CSS, JavaScript, PHP, Java, Python, C#</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>IDE</h3>
+            <p>Visual Studio, Eclipse, NetBeans, PyCharm</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Bases de données</h3>
+            <p>MySQL, PostgreSQL, MongoDB</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>CMS</h3>
+            <p>WordPress</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Qualité Logicielle</h3>
+            <p>KISS, DRY, SOLID, SonarLint, Tests</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Conception</h3>
+            <p>Merise, UML, GitHub</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Réalisations</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <h3>Stage - Développement d'un Intranet</h3>
+
+            <p>
+                Création d'une plateforme interne permettant la gestion
+                documentaire d'une entreprise. Utilisation de PHP,
+                MySQL et Bootstrap.
+            </p>
+
+            <a href="#">Voir le projet</a>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Atelier 2 - Gestion de Bibliothèque</h3>
+
+            <p>
+                Développement d'une application permettant la gestion
+                des emprunts, utilisateurs et ouvrages.
+            </p>
+
+            <a href="#">Voir le projet</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="veille">
+
+    <h2>Veille Informationnelle</h2>
+
+    <div class="veille-container">
+
+        <div class="veille-box">
+
+            <h3>Intelligence Artificielle</h3>
+
+            <p>
+                Veille sur les nouveaux outils IA, assistants de
+                développement et impacts dans la programmation.
+            </p>
+
+        </div>
+
+        <div class="veille-box">
+
+            <h3>Cybersécurité</h3>
+
+            <p>
+                Surveillance des vulnérabilités web, bonnes pratiques
+                de sécurisation et actualités cyber.
+            </p>
+
+        </div>
+
+    </div>
+
+    <h3>Outils utilisés</h3>
+
+    <ul class="tools">
+        <li>Pearltrees</li>
+        <li>Feedly</li>
+        <li>Google Alerts</li>
+        <li>LinkedIn</li>
+        <li>Newsletters spécialisées</li>
+    </ul>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <form>
+
+        <input type="text" placeholder="Nom">
+
+        <input type="email" placeholder="Email">
+
+        <textarea placeholder="Votre message"></textarea>
+
+        <button type="submit">
+            Envoyer
+        </button>
+
+    </form>
+
+    <div class="infos">
+
+        <p>Email : aldjia.info@gmail.com</p>
+
+        <p>Téléphone : 06 34 15 41 29</p>
+
+        <p>LinkedIn : À compléter</p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2025 - Portfolio BTS SIO SLAM - Aldjia Amarni
+    </p>
+
+</footer>
 
 </body>
 </html>
