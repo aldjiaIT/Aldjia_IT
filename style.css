@@ -18,13 +18,14 @@ body{
 
 .hero{
     min-height:100vh;
+
     background:
     linear-gradient(
     rgba(0,0,0,0.35),
     rgba(0,0,0,0.45)
     ),
     url("background.jpg");
-
+    
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
@@ -210,8 +211,6 @@ section p{
     text-align:center;
     border-radius:15px;
     transition:0.4s;
-    text-decoration:none;
-    color:white;
 }
 
 .card:hover{
@@ -225,21 +224,12 @@ section p{
     margin-bottom:20px;
 }
 
-/* ===================== */
-/* MINDMAP LINK */
-/* ===================== */
-
 .mindmap{
     display:block;
     text-align:center;
     margin-top:40px;
     color:#00bfff;
     text-decoration:none;
-    font-weight:500;
-}
-
-.mindmap:hover{
-    text-shadow:0 0 10px #00bfff;
 }
 
 /* ===================== */
@@ -284,8 +274,6 @@ section p{
     padding:30px;
     border-radius:15px;
     transition:0.4s;
-    text-decoration:none;
-    color:white;
 }
 
 .project-card:hover{
@@ -296,6 +284,13 @@ section p{
 .project-card h3{
     color:#00bfff;
     margin-bottom:15px;
+}
+
+.project-card a{
+    display:inline-block;
+    margin-top:20px;
+    text-decoration:none;
+    color:#00bfff;
 }
 
 /* ===================== */
@@ -318,6 +313,15 @@ section p{
 .veille-box h3{
     color:#00bfff;
     margin-bottom:15px;
+}
+
+.tools{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.tools li{
+    margin-bottom:10px;
 }
 
 /* ===================== */
@@ -357,6 +361,15 @@ button{
 
 button:hover{
     box-shadow:0 0 20px #00bfff;
+}
+
+.infos{
+    text-align:center;
+    margin-top:50px;
+}
+
+.infos p{
+    margin-bottom:10px;
 }
 
 /* ===================== */
