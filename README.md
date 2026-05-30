@@ -1,164 +1,114 @@
-# 💻 Portfolio BTS SIO SLAM
+# Portfolio BTS SIO SLAM
 
 ## 👋 À propos
 
-Bienvenue sur mon portfolio professionnel réalisé dans le cadre du BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers).
+Ce portfolio a été réalisé dans le cadre de ma formation en BTS Services Informatiques aux Organisations (SIO), option SLAM (Solutions Logicielles et Applications Métiers).
 
-Ce site a pour objectif de présenter :
-
-* Mon parcours scolaire
-* Ma formation actuelle
-* Mes compétences techniques
-* Mes réalisations
-* Ma veille technologique
-* Mes objectifs professionnels
+Il a pour objectif de présenter mon parcours, mes compétences, mes réalisations ainsi que mes objectifs professionnels dans le domaine du développement informatique et de la cybersécurité.
 
 ---
 
-## 👩‍💻 Étudiante en Informatique
+## 🎓 Présentation
 
-Je suis actuellement étudiante en BTS SIO option SLAM.
+Originaire de Bordeaux , j’ai obtenu un baccalauréat général avec les spécialités Sciences Économiques et Sociales (SES), Histoire-Géographie, Géopolitique et Sciences Politiques (HGGSP) ainsi que Sciences de la Vie et de la Terre (SVT).
 
-Passionnée par les nouvelles technologies et le développement logiciel, je développe progressivement mes compétences dans différents domaines :
+Après plusieurs recherches sur différents domaines et leurs perspectives, je me suis orientée vers l’informatique, un secteur en constante évolution qui m’a particulièrement attirée par ses défis techniques et son importance dans la transformation numérique.
 
-* Développement Web
-* Bases de données
-* Conception logicielle
-* Gestion de projets
-* Qualité logicielle
-* Cybersécurité
+Je suis actuellement étudiante en BTS SIO option SLAM, une formation qui me permet de développer des compétences en développement, conception et maintenance d’applications.
 
 ---
 
-## 🚀 Compétences Techniques
+## 🎯 Objectif professionnel
 
-### Langages
+Mon objectif est de devenir ingénieure en cybersécurité et intelligence artificielle.
 
-* HTML5
-* CSS3
-* JavaScript
-* PHP
-* Python
-* Java
-* C#
+Ce métier consiste à protéger les systèmes d’intelligence artificielle contre les attaques et les usages malveillants, tout en garantissant leur fiabilité et leur sécurité. Il s’agit également de concevoir des solutions capables de détecter, anticiper et réduire les risques liés aux systèmes numériques.
+
+---
+
+## 📚 Parcours
+
+- 🎓 2023 - 2024 : Baccalauréat Général
+- ✈️ Année de césure : Voyage à l’étranger
+- 💻 2025 - 2026 : BTS SIO SLAM
+- 🏢 Avril - Mai 2026 : Stage Analyste SI - DSI Cevital
+
+---
+
+## 🛠️ Compétences
+
+### Développement
+- HTML, CSS, JavaScript
+- PHP, Java, Python, C#
 
 ### Bases de données
+- MySQL
+- MongoDB
 
-* MySQL
-* PostgreSQL
-* MongoDB
-
-### Outils & IDE
-
-* Visual Studio
-* VS Code
-* Eclipse
-* NetBeans
-* PyCharm
-
-### Gestion de versions
-
-* Git
-* GitHub
+### Outils
+- Visual Studio Code
+- Git / GitHub
+- WordPress
 
 ### Conception
-
-* UML
-* Merise
+- UML
+- Merise
 
 ### Qualité logicielle
-
-* KISS
-* DRY
-* SOLID
-* SonarLint
-* Tests unitaires
+- KISS, DRY, SOLID
+- Tests
 
 ---
 
-## 📂 Réalisations
+## 🚀 Réalisations
 
-### Stage - Développement d'un Intranet
+### 🔹 Stage - Développement d’un Intranet
+Développement d’une plateforme interne de gestion documentaire au sein de la DSI de Cevital.
 
-Développement d'une plateforme interne permettant la gestion documentaire et la centralisation des informations d'entreprise.
-
-Technologies :
-
-* PHP
-* MySQL
-* Bootstrap
-* GitHub
+Technologies utilisées :
+- PHP
+- MySQL
+- Bootstrap
+- GitHub
 
 ---
 
-### Atelier 2 - Gestion de Bibliothèque
-
-Application permettant :
-
-* la gestion des ouvrages ;
-* la gestion des emprunts ;
-* la gestion des utilisateurs ;
-* la génération de statistiques.
-
-Technologies :
-
-* HTML
-* CSS
-* JavaScript
-* MySQL
+### 🔹 Gestion de bibliothèque
+Application permettant la gestion des ouvrages, des emprunts et des utilisateurs.
 
 ---
 
-## 📚 Veille Technologique
+## 🔎 Veille technologique
 
-### Thème 1 : Intelligence Artificielle
-
-Veille sur les évolutions de l'IA dans le développement logiciel, les assistants de programmation et les nouveaux outils d'automatisation.
-
-### Thème 2 : Cybersécurité
-
-Suivi des vulnérabilités web, bonnes pratiques de développement sécurisé et actualités liées à la sécurité informatique.
+### Thèmes
+- Intelligence Artificielle
+- Cybersécurité
 
 ### Outils utilisés
-
-* Pearltrees
-* Feedly
-* Google Alerts
-* LinkedIn
-* Newsletters spécialisées
+- Pearltrees
+- Google Alerts
+- LinkedIn
+- X (Twitter)
+- YouTube
 
 ---
 
-## 🎯 Objectifs Professionnels
+## 🎯 Métiers visés
 
-À court terme :
-
-* Obtenir mon BTS SIO SLAM
-* Développer mes compétences techniques
-
-À moyen terme :
-
-* Devenir développeuse Full Stack
-* Participer à des projets professionnels ambitieux
-
-À long terme :
-
-* Évoluer vers un poste de cheffe de projet ou d'ingénieure logicielle
+- Développeuse Web
+- Développeuse Full Stack
+- Ingénieure cybersécurité IA
 
 ---
 
 ## 📞 Contact
 
-📧 Email : [aldjia.info@gmail.com](mailto:aldjia.info@gmail.com)
-
-📱 Téléphone : 06 34 15 41 29
-
-🔗 LinkedIn : À compléter
+- 📧 Email : aldjia.info@gmail.com  
+- 📱 Téléphone : 06 34 15 41 29  
+- 🔗 LinkedIn : À compléter  
 
 ---
 
-## 🌐 Portfolio en ligne
+## 🌐 Portfolio
 
 Le portfolio est accessible via GitHub Pages.
-
-Projet réalisé dans le cadre du BTS SIO SLAM.
