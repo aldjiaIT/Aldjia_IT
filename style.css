@@ -1,239 +1,150 @@
-<!DOCTYPE html>
-
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Aldjia Amarni</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<script src="https://kit.fontawesome.com/7a4d0c5f1e.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-
-<header class="hero">
-
-<nav>
-    <h2 class="logo">Aldjia<span>.</span></h2>
-
-    <ul>
-        <li><a href="#about">Présentation</a></li>
-        <li><a href="#timeline">Parcours</a></li>
-        <li><a href="#formation">BTS SIO</a></li>
-        <li><a href="#skills">Compétences</a></li>
-        <li><a href="#projects">Réalisations</a></li>
-        <li><a href="#veille">Veille</a></li>
-        <li><a href="#metiers">Métiers</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<div class="hero-content">
-
-    <img src="photo.jpg" alt="Photo Profil" class="profile">
-
-    <h1>Aldjia Amarni</h1>
-
-    <h3>Étudiante en Informatique</h3>
-
-    <p>Développement d'applications - BTS SIO Option SLAM</p>
-
-    <div class="hero-buttons">
-
-        <a href="CV.pdf" target="_blank" class="btn">Télécharger CV</a>
-
-        <a href="https://www.linkedin.com/in/aldjia-amarni" target="_blank" class="btn btn-outline">LinkedIn</a>
-
-    </div>
-
-</div>
-
-</header>
-
-<section id="about">
-
-<h2>Présentation Personnelle</h2>
-
-<p>
-Originaire de Bordeaux, j’ai obtenu un baccalauréat général avec les spécialités Sciences Économiques et Sociales (SES), Histoire-Géographie, Géopolitique et Sciences Politiques (HGGSP) ainsi que Sciences de la Vie et de la Terre (SVT).
-
-Ce parcours m’a permis de développer mon esprit d’analyse, ma curiosité et ma compréhension des enjeux économiques, sociétaux et technologiques actuels.
-
-À cette époque, je n’avais pas encore défini avec certitude mon projet professionnel. Après avoir effectué de nombreuses recherches sur différents secteurs d’activité et leurs perspectives d’évolution, je me suis progressivement orientée vers l’informatique.
-
-Ce domaine a retenu mon attention en raison de son importance croissante dans notre quotidien, de la diversité des opportunités qu’il offre et des défis intellectuels qu’il représente.
-
-Aujourd’hui, je suis étudiante en BTS Services Informatiques aux Organisations (SIO), option Solutions Logicielles et Applications Métiers (SLAM).
-
-Cette formation me permet d’acquérir des compétences solides en conception, développement, maintenance et sécurisation d’applications.
-
-Mon objectif est de devenir ingénieure spécialisée en cybersécurité.
-</p>
-
-</section>
-
-<section id="timeline">
-
-<h2>Mon Parcours</h2>
-
-<div class="timeline">
-
-<div class="timeline-item">
-    <h3>Avril - Mai 2026</h3>
-    <p>Stage Analyste SI - DSI Cevital</p>
-</div>
-
-<div class="timeline-item">
-    <h3>2025 - 2026</h3>
-    <p>BTS SIO Option SLAM</p>
-</div>
-
-<div class="timeline-item">
-    <h3>2024 - 2025</h3>
-    <p>Année de césure - Voyage à l'étranger</p>
-</div>
-
-<div class="timeline-item">
-    <h3>2023 - 2024</h3>
-    <p>Baccalauréat Général</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="skills">
-
-<h2>Compétences</h2>
-
-<div class="skills-grid">
-
-<div class="skill-box">
-    <h3>Langages</h3>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>C#</li>
-    </ul>
-</div>
-
-<div class="skill-box">
-    <h3>Bases de données</h3>
-    <ul>
-        <li>MySQL</li>
-        <li>MongoDB</li>
-    </ul>
-</div>
-
-<div class="skill-box">
-    <h3>IDE & Outils</h3>
-    <ul>
-        <li>Visual Studio</li>
-        <li>VS Code</li>
-        <li>PyCharm</li>
-    </ul>
-</div>
-
-<div class="skill-box">
-    <h3>Gestion de versions</h3>
-    <ul>
-        <li>GitHub</li>
-    </ul>
-</div>
-
-<div class="skill-box">
-    <h3>Conception</h3>
-    <ul>
-        <li>UML</li>
-        <li>Merise</li>
-        <li>POO</li>
-    </ul>
-</div>
-
-</div>
-
-</section>
-
-<section id="projects">
-
-<h2>Réalisations</h2>
-
-<div class="project-container">
-
-<a href="#intranet" class="project-card">
-    <h3>Stage Analyste SI</h3>
-    <p>Projet de développement d’une plateforme interne de gestion documentaire.</p>
-</a>
-
-<a href="#app-bureau" class="project-card">
-    <h3>Développement d'une application bureau</h3>
-    <p>Création d’une application desktop de gestion.</p>
-</a>
-
-</div>
-
-</section>
-
-<section id="intranet">
-
-<h2>Stage Analyste SI</h2>
-
-<p>Développement d’une plateforme interne de gestion documentaire.</p>
-
-<h3>Technologies utilisées</h3>
-
-<ul>
-    <li>PHP</li>
-    <li>MySQL</li>
-    <li>Bootstrap</li>
-</ul>
-
-</section>
-
-<section id="app-bureau">
-
-<h2>Développement d'une application bureau</h2>
-
-<p>Création d’une application desktop de gestion.</p>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<form action="https://formsubmit.co/aldjia.info@gmail.com" method="POST">
-
-<input type="hidden" name="_captcha" value="false">
-
-<input type="hidden" name="_subject" value="Nouveau message portfolio">
-
-<input type="text" name="Nom" placeholder="Nom" required>
-
-<input type="email" name="Email" placeholder="Email" required>
-
-<textarea name="Message" placeholder="Message" required></textarea>
-
-<button type="submit">Envoyer</button>
-
-</form>
-
-</section>
-
-<footer>
-<p>© 2026 - Portfolio</p>
-</footer>
-
-</body>
-</html>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#050505;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.45)),
+    url("background.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    display:flex;
+    flex-direction:column;
+}
+
+/* NAV */
+
+nav{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 10%;
+    position:fixed;
+    top:0;
+    z-index:1000;
+    backdrop-filter:blur(12px);
+    background:rgba(0,0,0,0.4);
+}
+
+.logo{
+    font-size:32px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#00bfff;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* HERO CONTENT */
+
+.hero-content{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+/* TIMELINE */
+
+.timeline{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.timeline-item{
+    background:#111;
+    border-left:5px solid #00bfff;
+    padding:25px;
+    border-radius:10px;
+}
+
+/* SKILLS */
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.skill-box{
+    background:#111;
+    padding:25px;
+    border-radius:15px;
+}
+
+/* PROJECTS */
+
+.project-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    background:#111;
+    padding:30px;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+}
+
+/* CONTACT */
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    max-width:700px;
+    margin:auto;
+}
+
+input,textarea{
+    padding:15px;
+    background:#111;
+    border:1px solid #333;
+    color:white;
+}
+
+button{
+    padding:15px;
+    background:#00bfff;
+    border:none;
+    color:white;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#000;
+}
