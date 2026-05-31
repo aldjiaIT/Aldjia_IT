@@ -1,6 +1,4 @@
-/* ========================
-   RESET & BASE
-======================== */
+/* RESET & FONTS */
 * {
     margin: 0;
     padding: 0;
@@ -10,319 +8,233 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    background-color: #f5f5f5;
     color: #333;
-    background-color: #f9f9f9;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-}
-
-/* ========================
-   HEADER HERO
-======================== */
-header.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 1rem;
-    background: linear-gradient(135deg, #6c63ff, #00c3ff);
-    color: #fff;
+h2 {
     text-align: center;
+    margin-bottom: 20px;
+    color: #222;
 }
 
-header nav {
-    width: 100%;
+/* NAVIGATION */
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-header nav .logo {
-    font-size: 1.8rem;
+nav .logo {
+    font-size: 24px;
     font-weight: 700;
 }
 
-header nav .logo span {
-    color: #ffdd59;
-}
-
-header nav ul {
+nav ul {
     display: flex;
-    gap: 1.5rem;
+    list-style: none;
+    gap: 20px;
 }
 
-header nav ul li a {
-    color: #fff;
+nav ul li a {
+    text-decoration: none;
+    color: #333;
     font-weight: 500;
-    transition: 0.3s;
+    transition: color 0.3s;
 }
 
-header nav ul li a:hover {
-    color: #ffdd59;
+nav ul li a:hover {
+    color: #0077b6;
 }
 
-.hero-content img.profile {
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e0f7fa;
+}
+
+.hero-content .profile {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 1rem;
-    border: 4px solid #fff;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
-.hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
-.hero-content h3 {
-    font-weight: 400;
-    margin-bottom: 0.5rem;
+.hero h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.hero-content p {
-    margin-bottom: 1.5rem;
+.hero p {
+    margin-bottom: 20px;
 }
 
 .hero-buttons .btn {
-    padding: 0.6rem 1.5rem;
-    margin: 0 0.5rem;
-    border-radius: 25px;
-    font-weight: 500;
-    transition: 0.3s;
     display: inline-block;
-    border: 2px solid #fff;
-    background-color: #fff;
-    color: #6c63ff;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0077b6;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
 .hero-buttons .btn:hover {
-    background-color: transparent;
-    color: #fff;
+    background-color: #005f87;
 }
 
 .hero-buttons .btn-outline {
     background-color: transparent;
+    border: 2px solid #0077b6;
+    color: #0077b6;
+}
+
+.hero-buttons .btn-outline:hover {
+    background-color: #0077b6;
     color: #fff;
 }
 
-/* ========================
-   SECTIONS
-======================== */
+/* SECTIONS */
 section {
-    padding: 4rem 1rem;
+    padding: 60px 20px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: #6c63ff;
+p {
+    margin-bottom: 15px;
 }
 
-section p {
-    margin-bottom: 1rem;
-    text-align: justify;
-}
-
-/* ========================
-   TIMELINE
-======================== */
+/* TIMELINE */
 .timeline {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 20px;
 }
 
 .timeline-item {
-    background-color: #fff;
-    padding: 1rem 1.5rem;
-    border-left: 4px solid #6c63ff;
-    border-radius: 8px;
+    padding: 15px 20px;
+    background-color: #e3f2fd;
+    border-left: 4px solid #0077b6;
+    border-radius: 5px;
 }
 
-/* ========================
-   SKILLS
-======================== */
+.timeline-item h3 {
+    margin-bottom: 5px;
+}
+
+/* SKILLS GRID */
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-}
-
-.skill-box {
-    background-color: #fff;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-}
-
-.skill-box h3 {
-    margin-bottom: 1rem;
-    color: #6c63ff;
-}
-
-.skill-box ul li {
-    margin-bottom: 0.5rem;
-}
-
-/* ========================
-   METIERS / CARDS
-======================== */
-.cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 20px;
     justify-content: center;
 }
 
-.card {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 250px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    transition: 0.3s;
+.skill-box {
+    flex: 1 1 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+.skill-box h3 {
+    margin-bottom: 10px;
 }
 
-.card i {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #6c63ff;
+.skill-box ul {
+    list-style: none;
 }
 
-/* ========================
-   PROJECTS
-======================== */
+.skill-box ul li {
+    margin-bottom: 5px;
+}
+
+/* PROJECTS */
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .project-card {
-    background-color: #fff;
-    padding: 1.5rem;
+    flex: 1 1 300px;
+    padding: 20px;
+    background-color: #e0f7fa;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    transition: 0.3s;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
-.project-card h3 {
-    margin-bottom: 1rem;
-    color: #6c63ff;
-}
-
-/* ========================
-   VEILLE
-======================== */
-.veille-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-}
-
-.veille-box {
-    background-color: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-}
-
-.tools li {
-    display: inline-block;
-    margin-right: 1rem;
-    margin-bottom: 0.5rem;
-    background-color: #6c63ff;
-    color: #fff;
-    padding: 0.3rem 0.8rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
-}
-
-/* ========================
-   CONTACT
-======================== */
+/* CONTACT FORM */
 form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 15px;
     max-width: 500px;
-    margin: 0 auto 2rem;
+    margin: auto;
 }
 
 form input, form textarea {
-    padding: 0.8rem 1rem;
-    border-radius: 8px;
+    padding: 10px;
     border: 1px solid #ccc;
-    font-size: 1rem;
-    width: 100%;
+    border-radius: 5px;
 }
 
 form button {
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 25px;
-    background-color: #6c63ff;
+    padding: 10px;
+    background-color: #0077b6;
     color: #fff;
-    font-weight: 500;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 form button:hover {
-    background-color: #5a52d4;
+    background-color: #005f87;
 }
 
-.contact-infos p {
-    margin-bottom: 0.5rem;
-    text-align: center;
-}
-
-/* ========================
-   FOOTER
-======================== */
+/* FOOTER */
 footer {
     text-align: center;
-    padding: 2rem 1rem;
-    background-color: #6c63ff;
+    padding: 20px;
+    background-color: #222;
     color: #fff;
 }
 
-/* ========================
-   MEDIA QUERIES
-======================== */
+/* RESPONSIVE */
 @media (max-width: 768px) {
-    header nav ul {
+    nav ul {
         flex-direction: column;
-        gap: 1rem;
+        gap: 10px;
     }
-    .timeline {
-        gap: 1rem;
-    }
-    .skills-grid {
-        gap: 1rem;
+
+    .skills-grid, .project-container {
+        flex-direction: column;
+        align-items: center;
     }
 }
