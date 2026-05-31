@@ -222,7 +222,7 @@ section p{
 }
 
 /* ===================== */
-/* MINDMAP LINK */
+/* MINDMAP */
 /* ===================== */
 
 .mindmap{
@@ -239,14 +239,14 @@ section p{
 }
 
 /* ===================== */
-/* COMPETENCES */
+/* COMPETENCES (CORRIGÉ) */
 /* ===================== */
 
 .skills-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:25px;
-    align-items:start; /* ✅ correction du vide */
+    align-items:start;
 }
 
 .skill-box{
@@ -254,7 +254,7 @@ section p{
     padding:25px;
     border-radius:15px;
     transition:0.4s;
-    height:100%; /* ✅ évite blocs écrasés */
+    height:100%;
 }
 
 .skill-box:hover{
