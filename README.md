@@ -1,128 +1,190 @@
 # Portfolio BTS SIO SLAM
 
 ## 👋 À propos
+
 Bienvenue sur mon portfolio professionnel réalisé dans le cadre du BTS SIO (Services Informatiques aux Organisations), option SLAM (Solutions Logicielles et Applications Métiers).
 
 Ce site a pour objectif de présenter :
-- Mon parcours scolaire  
-- Ma formation actuelle  
-- Mes compétences techniques  
-- Mes réalisations  
-- Ma veille technologique  
-- Mes objectifs professionnels  
+
+* Mon parcours scolaire
+* Ma formation actuelle
+* Mes compétences techniques
+* Mes réalisations
+* Ma veille technologique
+* Mes objectifs professionnels
 
 ---
 
-## 👩‍💻 Étudiante en Informatique
+# 👩‍💻 Étudiante en Informatique
+
 Originaire de Bordeaux, j’ai obtenu un baccalauréat général avec les spécialités Sciences Économiques et Sociales (SES), Histoire-Géographie, Géopolitique et Sciences Politiques (HGGSP) ainsi que Sciences de la Vie et de la Terre (SVT).
 
-À cette époque, je n’avais pas encore défini avec certitude mon projet professionnel. Après plusieurs recherches sur différents domaines et leurs perspectives d’évolution, je me suis progressivement orientée vers l’informatique. Ce domaine m’a attirée par son importance dans la transformation numérique, la diversité de ses métiers et les défis techniques qu’il propose.
+Ce parcours m’a permis de développer mon esprit d’analyse, ma curiosité et ma compréhension des enjeux économiques, sociétaux et technologiques actuels.
 
-Aujourd’hui, je suis étudiante en BTS SIO option SLAM, une formation qui me permet d’acquérir des compétences solides en conception, développement et maintenance d’applications.
+À cette époque, je n’avais pas encore défini avec certitude mon projet professionnel. Après avoir effectué de nombreuses recherches sur différents secteurs d’activité et leurs perspectives d’évolution, je me suis progressivement orientée vers l’informatique.
 
----
+Ce domaine a retenu mon attention en raison de son importance croissante dans notre quotidien, de la diversité des opportunités qu’il offre et des défis intellectuels qu’il représente. J’ai particulièrement apprécié l’idée de pouvoir concevoir des solutions concrètes, résoudre des problématiques complexes et évoluer dans un environnement où l’apprentissage est permanent.
 
-## 🚀 Compétences Techniques
+Aujourd’hui, je suis étudiante en BTS Services Informatiques aux Organisations (SIO), option Solutions Logicielles et Applications Métiers (SLAM).
 
-### Langages
-HTML  
-CSS  
-JavaScript  
-PHP  
-Python  
-Java  
-C#
+Cette formation me permet d’acquérir des compétences solides en conception, développement, maintenance et sécurisation d’applications tout en renforçant ma rigueur, mon autonomie et ma capacité à travailler sur des projets techniques.
 
-### Bases de données
-MySQL  
-MongoDB  
+Mon objectif est de poursuivre mes études afin de devenir ingénieure spécialisée en cybersécurité. Je m’intéresse particulièrement aux enjeux liés à la sécurisation des systèmes d’intelligence artificielle, un domaine qui prendra une place de plus en plus importante dans les années à venir.
 
-### Outils & IDE
-Visual Studio  
-VS Code  
-PyCharm  
-
-### Gestion de versions
-Git  
-GitHub  
-
-### Conception
-UML  
-Merise  
-
-### Qualité logicielle
-KISS  
-DRY  
-SOLID  
-SonarLint  
-Tests  
+Je souhaite également explorer les possibilités offertes par l’intelligence artificielle pour renforcer la cybersécurité, notamment dans la détection des menaces, la prévention des attaques et la protection des infrastructures numériques.
 
 ---
 
-## 📂 Réalisations
+# 🎓 Parcours
 
-### Stage - Développement d'un Intranet
+### 2023 - 2024
+
+Baccalauréat Général
+
+### 2024 - 2025
+
+Année de césure – Voyage à l’étranger
+
+### 2025 - 2026
+
+BTS SIO Option SLAM
+
+### Avril - Mai 2026
+
+Stage Analyste SI – DSI Cevital
+
+---
+
+# 📚 BTS SIO Option SLAM
+
+Le BTS SIO (Services Informatiques aux Organisations) a été mis en place en 2011 pour remplacer l’ancien BTS Informatique de Gestion et mieux répondre aux besoins actuels des entreprises dans le domaine du numérique.
+
+Cette formation se divise en deux options : SISR et SLAM.
+
+L’option SLAM (Solutions Logicielles et Applications Métiers) est celle qui se concentre sur le développement informatique.
+
+Elle forme à la création d’applications, de sites web et de logiciels adaptés aux besoins d’une organisation, depuis l’analyse du besoin jusqu’à la mise en place et la maintenance.
+
+Concrètement, SLAM permet d’apprendre à programmer, gérer des bases de données et concevoir des solutions logicielles fonctionnelles, tout en intégrant des notions de travail en équipe et de cybersécurité.
+
+---
+
+# 🚀 Compétences Techniques
+
+## Langages
+
+* HTML
+* CSS
+* JavaScript
+* PHP
+* Python
+* Java
+* C#
+
+## Bases de données
+
+* MySQL
+* MongoDB
+
+## Outils & IDE
+
+* Visual Studio
+* Visual Studio Code
+* NetBeans
+* PyCharm
+
+## Gestion de versions
+
+* Git
+* GitHub
+
+## Conception
+
+* UML
+* Merise
+
+---
+
+# 📂 Réalisations
+
+## Stage - Développement d'un Intranet
+
 Développement d’une plateforme interne de gestion documentaire au sein de la DSI de Cevital.
 
-Technologies utilisées :
-PHP  
-MySQL  
-Bootstrap  
-GitHub  
+Le projet permet de centraliser les documents et d’améliorer la gestion de l’information en entreprise.
+
+### Technologies utilisées
+
+* PHP
+* MySQL
+* Bootstrap
+* GitHub
 
 ---
 
-### Atelier 2 - Gestion de Bibliothèque
-Application permettant :
-- la gestion des ouvrages  
-- la gestion des emprunts  
-- la gestion des utilisateurs  
-- la génération de statistiques  
+# 📚 Veille Informationnelle
 
-Technologies :
-HTML  
-CSS  
-JavaScript  
-MySQL  
+## Thème 1 : Intelligence Artificielle
 
----
+Veille sur les évolutions de l’intelligence artificielle et ses applications dans le développement logiciel et la cybersécurité.
 
-## 📚 Veille Technologique
+## Thème 2 : Cybersécurité
 
-### Thème 1 : Intelligence Artificielle
-Veille sur les évolutions de l’IA dans le développement logiciel et la cybersécurité.
-
-### Thème 2 : Cybersécurité
-Suivi des vulnérabilités web et des bonnes pratiques de développement sécurisé.
+Suivi des vulnérabilités, des nouvelles menaces informatiques et des bonnes pratiques de développement sécurisé.
 
 ### Outils utilisés
-Pearltrees  
-Google Alerts  
-LinkedIn  
-X  
-YouTube  
+
+* Pearltrees
+* Google Alerts
+* LinkedIn
+* X
+* YouTube
+
+### Lien Pearltrees
+
+https://www.pearltrees.com/aldjia_sioslam
 
 ---
 
-## 🎯 Objectifs Professionnels
-À court terme :
-- Obtenir mon BTS SIO SLAM  
-- Développer mes compétences techniques  
+# 🎯 Métiers Visés
 
-À moyen terme :
-- Devenir développeuse Full Stack  
-- Participer à des projets professionnels  
+À long terme, je souhaite devenir ingénieure en sécurité, et si possible de l’intelligence artificielle.
 
-À long terme :
-- Devenir ingénieure en cybersécurité et intelligence artificielle  
+Ce métier consiste à protéger les systèmes d’IA contre les attaques et les usages malveillants tout en garantissant leur fiabilité et leur bon fonctionnement.
 
----
+Il s’agit également de développer des solutions capables de détecter, anticiper et limiter les risques liés à ces technologies qui prennent une place de plus en plus importante dans de nombreux secteurs.
 
-## 📞 Contact
-📧 Email : aldjia.info@gmail.com  
-📱 Téléphone : 06 34 15 41 29  
-🔗 LinkedIn : À compléter  
+### Carte heuristique
+
+https://mm.tt/map/4010598375?t=EBt4zBqf3R
 
 ---
 
-🌐 Portfolio en ligne via GitHub Pages
+# 📞 Contact
+
+📧 Email : [aldjia.info@gmail.com](mailto:aldjia.info@gmail.com)
+
+📱 Téléphone : 07 58 74 74 10
+
+💬 WhatsApp : 07 59 58 65 16
+
+---
+
+# 🔗 Liens
+
+Portfolio GitHub Pages
+
+Carte heuristique :
+https://mm.tt/map/4010598375?t=EBt4zBqf3R
+
+Pearltrees :
+https://www.pearltrees.com/aldjia_sioslam
+
+LinkedIn :
+À compléter
+
+---
+
+# 🚀 Objectif Professionnel
+
+À long terme, devenir ingénieure spécialisée en cybersécurité et en intelligence artificielle afin de contribuer à la sécurisation des systèmes numériques de demain.
